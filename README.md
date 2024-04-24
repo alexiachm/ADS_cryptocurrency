@@ -13,7 +13,8 @@ Results Section: This section is conditionally rendered ({% if currency %}) and 
 It displays information about each cryptocurrency returned from the search.
 Information includes the name, NIF, founder, date founded, consensus mechanism, max supply, circulating supply, total supply, market cap, website link, whitepaper link, GitHub link, Reddit link, and possibly other fields.
 Results are displayed in an unordered list (<ul>) with list items (<li>).
-Title Container: It contains an image (<img>) and a title (<h1>). The image is a visual representation related to cryptocurrency that was uploaded to pythonanywhere. 
+Title Container: It contains an image (<img>) and a title (<h1>). 
+The image is a visual representation related to cryptocurrency that was uploaded to pythonanywhere. 
 The title is “Search cryptocurrencies”
 Message Section: In this section the code would display content based on whether there is a message to show or not.
 Variables: This HTML template seems to be using a templating engine (e.g., Jinja2) as it includes variables like {{ currency_data.name }}, {{ currency_data.NIF }}, etc.
