@@ -1,5 +1,7 @@
 # ADS_cryptocurrency
-Cyptocurrency Project for Advanced Data Structures and Storage
+The following project was craated for the Advance Data Structure Class. The project consists of bullding a website in which the user can search for different cryptocurrencies and the ibformation gathered for it will be displayed. For this project we had to build our own No SQL database from information from various sources for a list of cryptocurrencies. The database needed to be No SQL as we had the possibility of not finding the same kind of data for all the different cryptocurrencies. We decided to use a MongoDB database, however, after extensive trials, we were not able to connect with the server from different MongoDB sources (Atlas for example), we decided to use TinyDB to build our websites database. 
+
+In the following, the codes used for the different parts of the program will be found.
 
 ### HTML code description
 The code should be a html and it starts with the usual structure tags: <!DOCTYPE html>, <html>, <head>, and <body>.
